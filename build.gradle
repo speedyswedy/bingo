@@ -109,3 +109,9 @@ assets {
     minifyJs = true
     minifyCss = true
 }
+
+buildscript {
+    ext {
+        grailsVersion = project.grailsVersion
+    }
+}
